@@ -47,7 +47,7 @@ Fork the git, add a zipped release and you can use it in a download manager like
 ## Screenshots
 
 - Default
-![Default](https://github.com/ake-viox/NagaLayoutForce/media/main/default.png?raw=true)
+![Default](https://github.com/ake-viox/NagaLayoutForce/blob/main/media/default.png?raw=true)
 
 - Naga Layout
-![Naga](https://github.com/ake-viox/NagaLayoutForce/media/main/naga.png?raw=true)
+![Naga](https://github.com/ake-viox/NagaLayoutForce/blob/main/media/naga.png?raw=true)
