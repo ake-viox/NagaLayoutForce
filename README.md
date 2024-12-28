@@ -2,12 +2,11 @@
 
 Created with your friendly neighborhood AI.
 
-A World of Warcraft addon that automatically inverts all 8 action bars to a Naga-style layout by default. This addon uses a hooking mechanism to ensure the layout persists even when the bars are edited in-game.
+A World of Warcraft addon that automatically inverts all 8 action bars to a Naga-style layout by default.
 
 ## Features
 - Automatically inverts all action bars (1 through 8).
-- Uses a hooking method to apply changes consistently whenever the game updates the action bars.
-- Simplified approach with no in-game configuration or commands.
+- Always on if installed, with no in-game configuration or commands.
 
 ## Installation
 
@@ -23,13 +22,15 @@ A World of Warcraft addon that automatically inverts all 8 action bars to a Naga
 ## How It Works
 
 - The addon utilizes a hooking mechanism (method=2) to modify the layout of all action bars on the Y-axis.
-- By default, all bars are set to vertical orientation, and no horizontal toggling is allowed.
-- Changes persist through UI updates without user intervention.
+- By default, all bars are set to naga orientation.
+- Changes persist through UI updates with Edit Mode.
 
-## Technical Details
+## Known behavior issues
 
-- The addon maps Blizzard bar frame names (e.g., `MainMenuBar`, `MultiBarBottomLeft`) to ensure compatibility with WoW's default action bars.
-- On addon load, it initializes the vertical layout and applies the changes via hooking to ensure the layout persists during gameplay.
+This is more of a visual issue if you come from an addon:
+
+- If you had Elvui installed and did not reverse all bars in their config then you will see it inverted. After setting it to your liking once with the default WoW bars it will show correct.
+- Make sure no other actionbar altering addons are installed.
 
 ## Editing Behavior (Advanced Users)
 
@@ -37,3 +38,16 @@ If you wish to modify the default behavior, you can edit the `NagaLayoutForce.lu
 
 - Adjust the `defaults` table to change how bars are handled.
 - Modify the `map` table if additional (or less) bars need to be supported.
+
+## Note
+
+This addon will not be maintained.
+Fork the git, add a zipped release and you can use it in a download manager like WowUp.
+
+## Screenshots
+
+- Default
+![Default](https://github.com/ake-viox/NagaLayoutForce/media/main/default.png?raw=true)
+
+- Naga Layout
+![Naga](https://github.com/ake-viox/NagaLayoutForce/media/main/naga.png?raw=true)
