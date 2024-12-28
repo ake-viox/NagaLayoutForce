@@ -1,6 +1,7 @@
 # NagaLayoutForce
 
-Created with your friendly neighborhood AI.
+Created with inspiration of ActionBarButtonGrowthDirection addon. However that only sets actionbar 1 inverted without editing the .lua / savedvariables.
+I prefer all or nothing.
 
 A World of Warcraft addon that automatically inverts all 8 action bars to a Naga-style layout by default.
 
