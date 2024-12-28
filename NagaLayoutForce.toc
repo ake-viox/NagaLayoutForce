@@ -3,7 +3,7 @@
 ## Notes: Force invert all 8 standard action bars to achieve a Naga mouse style layout when put into 4 - 12 horizontal configuration.
 ## IconTexture: Interface/AddOns/NagaLayoutForce/icon.png
 ## Author: Momokan
-## Version: 1.0.2
+## Version: 1.0.3
 
 ## SavedVariables: ABBGD_db
 

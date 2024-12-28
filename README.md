@@ -2,7 +2,7 @@
 
 A World of Warcraft addon that automatically inverts all 8 action bars to a Naga-style layout by default.
 
-Created with inspiration of ActionBarButtonGrowthDirection addon. However that only sets actionbar 1 inverted without editing the .lua / savedvariables.
+Created from ActionBarButtonGrowthDirection addon. However that only sets actionbar 1 inverted without editing the .lua / savedvariables.
 I prefer all or nothing on install.
 
 ## Features
@@ -29,8 +29,7 @@ This is more of a visual issue if you come from an addon:
 
 ## Note
 
-This addon will not be maintained.
-Fork the git, add a zipped release and you can use it in a download manager like WowUp.
+This addon will not be maintained, it is for my personal use.
 
 ## Screenshots
 
